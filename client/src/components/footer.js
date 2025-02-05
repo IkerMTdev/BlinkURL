@@ -5,7 +5,7 @@ import logo from "../assets/images/logo.png";
 const Footer = () => {
   return (
     <footer class="rounded-lg shadow-sm m-4">
-      <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+      <div class="w-full max-w-screen-xl mx-auto sm:py-4 md:py-6 lg:py-8">
         <div class="sm:flex sm:items-center sm:justify-between">
           <a
             href="https://flowbite.com/"
@@ -16,33 +16,24 @@ const Footer = () => {
               BlinkURL
             </span>
           </a>
-          <ul class="flex flex-wrap items-center mb-6 text-sm font-medium sm:mb-0">
+          <ul class="flex flex-wrap items-center mb-6 text-md font-medium sm:mb-0">
             <li>
-              <a
-                href="https://flowbite.com/"
-                class="hover:underline me-4 md:me-6"
-              >
+              <a href="https://flowbite.com/" class="me-4 md:me-6 lg:me-8">
                 About
               </a>
             </li>
             <li>
-              <a
-                href="https://flowbite.com/"
-                class="hover:underline me-4 md:me-6"
-              >
+              <a href="https://flowbite.com/" class="me-4 md:me-6 lg:me-8">
                 Privacy Policy
               </a>
             </li>
             <li>
-              <a
-                href="https://flowbite.com/"
-                class="hover:underline me-4 md:me-6"
-              >
+              <a href="https://flowbite.com/" class="me-4 md:me-6 lg:me-8">
                 Licensing
               </a>
             </li>
             <li>
-              <a href="https://flowbite.com/" class="hover:underline">
+              <a href="https://flowbite.com/" class="me-4 md:me-6 lg:me-8">
                 Contact
               </a>
             </li>
