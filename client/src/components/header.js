@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/header.css";
 import logo from "../assets/images/logo.png";
+import HamburgerMenu from "./HamburguerMenu";
 
 const Header = () => {
   return (
@@ -15,7 +16,9 @@ const Header = () => {
             <span class="self-center text-3xl whitespace-nowrap">BlinkURL</span>
           </a>
         </div>
-        <div class="lg:flex md:gap-x-8 lg:gap-x-12">
+        <HamburgerMenu/>
+
+        <div class="flex md:gap-x-8 lg:gap-x-12 hidden md:flex lg:flex">
           <a href="#" class="me-4 md:me-6 lg:me-8">
             About
           </a>
@@ -26,7 +29,7 @@ const Header = () => {
             Contact
           </a>
         </div>
-        <div class="lg:flex lg:flex-1 lg:justify-end">
+        <div class="hidden md:flex lg:flex flex-1 lg:justify-end">
           <button class="me-4">
             <a href="#">LOG IN</a>
           </button>
