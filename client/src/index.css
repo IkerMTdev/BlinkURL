@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/* * VIDEO STYLE */
+
 .video-background  {
     position: absolute;
     top: 0;
@@ -9,5 +11,5 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    z-index: -1; /* Para que el video quede al fondo */
+    z-index: -1;
 }

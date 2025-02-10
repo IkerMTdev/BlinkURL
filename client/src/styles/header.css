@@ -1,3 +1,4 @@
+/* * GENERAL STYLE */
 
 a, span {
     color: white;
@@ -5,8 +6,7 @@ a, span {
     font-size: 18px;
 }
 
-/* * Button Style */
-
+/* * BUTTON STYLE */
 
 button a {
     color: black;

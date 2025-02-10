@@ -1,6 +1,7 @@
 import React from "react";
-import Header from "./components/Header"; // Importa el Header aquí
-import Footer from "./components/Footer"; // Importa el Footer aquí
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Shortener from "./components/Shortener";
 import video from "./assets/videos/background.mp4";
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
         Tu navegador no soporta el video.
       </video>
       <Header />
+      <Shortener />
       <Footer />
     </div>
   );

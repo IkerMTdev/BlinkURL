@@ -1,3 +1,6 @@
+
+/* * GENERAL STYLE */
+
 hr {
     border-color: white;
 }
@@ -5,3 +8,11 @@ hr {
 a, span {
     color: white;
 }
+
+/* * FOOTER STYLE */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }

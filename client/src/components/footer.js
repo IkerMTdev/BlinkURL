@@ -5,7 +5,7 @@ import logo from "../assets/images/logo.png";
 const Footer = () => {
   return (
     <footer>
-      <div className="w-full max-w-screen-xl mx-auto px-4 sm:py-4 md:py-6 lg:py-8">
+      <div className="max-w-screen-xl mx-auto px-4 sm:py-4 md:py-6 lg:py-8">
         <div className="sm:flex sm:items-center sm:justify-between">
           <a
             href="https://flowbite.com/"
@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
         <hr className="my-4 md:my-6 lg:my-8" />
         <span className="block text-sm text-center">
-          © 2025{" "}
+          &copy; 2025{" "}
           <a href="https://flowbite.com/" className="hover:underline">
             BlinkURL™
           </a>
