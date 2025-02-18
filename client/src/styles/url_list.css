@@ -1,0 +1,39 @@
+table {
+    width: 100%;
+    border-radius: 50px;
+    border-collapse: collapse;
+    background: linear-gradient(180deg, #1a1a1a 30%, #333333 100%);  
+}
+  
+  th, td {
+    text-align: center;
+    padding: 8px;
+  }
+  button a {
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin: 0 10px 0 10px;
+}
+
+button {
+    background: linear-gradient(135deg, #5DF8AB, #30D7F7);
+    padding: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+}
+
+button:hover {
+    transform: scale(1.10);
+}
+
+.delete-button {
+    background: linear-gradient(135deg, #FF5F6D, #FFC371);
+} 
+
+.delete-button:hover {
+    background: linear-gradient(135deg, #FFC371, #FF5F6D);
+}
